@@ -1,0 +1,11 @@
+body {
+
+    color: darkgreen;
+  }
+
+  .jumbotron {
+    background-image: url(images/anatomy.png);
+    background-size: 100% 100%;
+    /* height: 100%; */
+    text-align: center;
+    }
