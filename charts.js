@@ -168,8 +168,8 @@ function buildCharts(sample) {
 
 
     // D2: 3. Use Plotly to plot the data with the layout.
-    var trial = d3.select("sample-metadata").node();
-    console.log(trial);
+    // var trial = d3.select("sample-metadata").node();
+    // console.log(trial);
     
 
     // 4. Create the trace for the gauge chart.
