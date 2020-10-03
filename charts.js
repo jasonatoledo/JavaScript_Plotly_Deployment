@@ -159,12 +159,6 @@ function buildCharts(sample) {
 
     var allWfreq = sampleWash[0].wfreq;
     console.log(allWfreq);
-  
-
-    // Create variables that hold the otu_ids, otu_labels, and sample_values.
-    // var otu_ids = holder.otu_ids;//.slice(0,10);
-    // var otu_labels = holder.otu_labels;//.slice(0,10);
-    // var sample_values = holder.sample_values;
 
     // 3. Create a variable that holds the washing frequency. // keys values
     var washing = parseFloat(meta2.wfreq);
@@ -172,13 +166,6 @@ function buildCharts(sample) {
     console.log(washing);
     console.log(resultWashing);
 
-    // Create the yticks for the bar chart.
-    // Hint: Get the the top 10 otu_ids and map them in descending order 
-    // so the otu_ids with the most bacteria are last. 
-    // var yticks = otu_ids.slice(0,10).reverse();
-    // var yticksStr = yticks.map(tick => "OTU " + tick.toString());
-    // console.log(yticks);
-    // console.log(yticksStr);
 
     // D2: 3. Use Plotly to plot the data with the layout.
     var trial = d3.select("sample-metadata").node();
